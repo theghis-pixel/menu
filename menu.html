@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu des Délicieuses Bouchées</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #faf7f2; color: #333; }
+    header, footer { background: #8b3a2b; color: #fff; text-align: center; padding: 1rem; }
+    main { max-width: 900px; margin: 1rem auto; padding: 0 1rem; }
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    caption { font-size: 1.2rem; font-weight: bold; padding: 0.5rem; }
+    th, td { border: 1px solid #ddd; padding: 0.6rem; text-align: left; vertical-align: middle; }
+    thead th { background: #f0e4d8; }
+    tbody th { background: #e8d5c4; font-size: 1.1rem; }
+    td img { width: 100px; height: 75px; object-fit: cover; display: block; }
+    td:last-child { white-space: nowrap; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Délicieuses Bouchées</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Notre menu</h2>
+      <table>
+        <caption>Carte du restaurant Délicieuses Bouchées</caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Nom du plat</th>
+            <th scope="col">Description</th>
+            <th scope="col">Prix</th>
+          </tr>
+        </thead>
+
+        <!-- ENTRÉES -->
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Entrées</th>
+          </tr>
+          <tr>
+            <td><img src="images/salade 1.png" alt="Salade de chèvre chaud sur toast" loading="lazy"></td>
+            <td>Salade de chèvre chaud</td>
+            <td>Mesclun, toasts de chèvre gratinés, miel et noix</td>
+            <td>9,50 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/french-onion.jpeg" alt="Soupe à l'oignon gratinée" loading="lazy"></td>
+            <td>Soupe à l'oignon</td>
+            <td>Oignons caramélisés, bouillon, croûtons et gruyère fondu</td>
+            <td>8,00 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/carpaccio.jpg" alt="Carpaccio de bœuf au parmesan" loading="lazy"></td>
+            <td>Carpaccio de bœuf</td>
+            <td>Fines tranches de bœuf, roquette, parmesan et huile d'olive</td>
+            <td>11,00 €</td>
+          </tr>
+        </tbody>
+
+        <!-- PLATS PRINCIPAUX -->
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Plats principaux</th>
+          </tr>
+          <tr>
+            <td><img src="images/steak.jpg" alt="Steak frites avec sauce au poivre" loading="lazy"></td>
+            <td>Steak frites</td
+            <td>Entrecôte grillée, frites maison et sauce au poivre</td>
+            <td>18,50 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/saumon.jpg" alt="Filet de saumon grillé avec légumes" loading="lazy"></td>
+            <td>Saumon grillé</td>
+            <td>Filet de saumon, riz basmati et légumes de saison</td>
+            <td>17,00 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/risotto.jpg" alt="Risotto aux champignons" loading="lazy"></td>
+            <td>Risotto aux champignons</td>
+            <td>Riz arborio crémeux, champignons des bois et parmesan</td>
+            <td>15,50 €</td>
+          </tr>
+        </tbody>
+
+        <!-- DESSERTS -->
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Desserts</th>
+          </tr>
+          <tr>
+            <td><img src="images/Tiramisu.jpeg" alt="Tiramisu au café" loading="lazy"></td>
+            <td>Tiramisu</td>
+            <td>Mascarpone, biscuits imbibés de café et cacao</td>
+            <td>6,50 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/creme_brulee.jpg" alt="Crème brûlée à la vanille" loading="lazy"></td>
+            <td>Crème brûlée</td>
+            <td>Crème à la vanille de Madagascar, caramel croustillant</td>
+            <td>6,00 €</td>
+          </tr>
+          <tr>
+            <td><img src="images/moelleux-choco.jpeg" alt="Fondant au chocolat avec glace vanille" loading="lazy"></td>
+            <td>Fondant au chocolat</td>
+            <td>Cœur coulant, servi avec une boule de glace vanille</td>
+            <td>7,00 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Délicieuses Bouchées</p>
+  </footer>
+</body>
+</html>
